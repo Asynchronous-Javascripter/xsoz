@@ -79,6 +79,22 @@ xsoz/node/node.js
 xsoz/browser/browser.js 
 */
 
+/* Built In Packages (Weather.js)[Asynchronous] */
+/******************************************/
+import {
+  Weather_Catcher, 
+  Weather
+} from "xsoz/browser/InBuiltPackages/browser.js";
+
+Weather_Catcher() // setting up weather catcher 
+
+// Note - Weather Js is Asynchronous so, needs async and await!
+( async function () {
+  const russia_weather = await Weather('russia'); // location of region. 
+  
+})();
+/******************************************/
+
 /* Browser Sided Packages */
 import {THREE} from "xsoz/browser/browser.js";
 import {CANNON} from "xsoz/browser/browser.js";
