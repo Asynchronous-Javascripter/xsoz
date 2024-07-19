@@ -1,0 +1,22 @@
+{
+  "name": "revolution",
+  "version": "7.0.0",
+  "description": "",
+  "type": "module",
+  "main": "Node_Packages.js",
+  "scripts": {
+    "start":"npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Asynchronous Developer",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-flash": "^0.1.1",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "millify": "^6.1.0",
+    "mongoose": "^8.5.1"
+  }
+}

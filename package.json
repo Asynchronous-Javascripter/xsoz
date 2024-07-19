@@ -1,0 +1,32 @@
+{
+  "name": "xsoz",
+  "version": "4.0.0-beta.1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asynchronous-Javascripter/xsoz.git"
+  },
+  "keywords": [
+    "xsoz",
+    "three.js",
+    "cannon.js",
+    "express.js",
+    "mongoose.js",
+    "bcrypt",
+    "json-web-token",
+    "express-session",
+    "connect-flash",
+    "Weather.js",
+    "more packages are arriving soon!"
+  ],
+  "author": "Asynchronous Developer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asynchronous-Javascripter/xsoz/issues"
+  },
+  "homepage": "https://github.com/Asynchronous-Javascripter/xsoz#readme"
+}
