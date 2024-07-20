@@ -23,8 +23,6 @@ xsoz currently includes the following packages:
 
 - **Three.js**: A JavaScript-based WebGL engine that can run GPU-powered games and other graphics-powered apps straight from the browser. The three. js library provides many features and APIs for drawing 3D scenes in your browser.
 
-- **Weather.js**: This is the first **built in** package in **xsoz** that can provide you, with the weather of any place, even of a street, villages, towns, city, state, Country, not matters. Just only by writing it's exact location. And this'll fetch all information about that place. (Currently only support Brower). Soon documentation would be added to access it.
-
 - **gsap**: A best Javascript animation library.
 
 - **cannon-es-debugger**: Debugging tool for Cannon.js.
@@ -65,9 +63,9 @@ The future plans for xsoz include:
 
 While xsoz includes packages developed by various authors, this project does not claim credit for their work. All original authors are acknowledged and respected for their contributions to the open-source community.
 
-## Usage
+## Usage of Initialised Packages
 
-xsoz is built on ES6, so imports are used in place of require. To install xsoz, simply run:
+xsoz is built on ES6, so imports are used in place of require. To work with xsoz, simply observe or use the following code:
 
 ```javascript
 /* 
@@ -78,22 +76,6 @@ xsoz/node/node.js
 2) If you want to use any Web/Browser Sided package, like Three.js, Cannon.js, etc. then your path would be ->
 xsoz/browser/browser.js 
 */
-
-/* Built In Packages (Weather.js)[Asynchronous] */
-/******************************************/
-import {
-  Weather_Catcher, 
-  Weather
-} from "xsoz/browser/InBuiltPackages/browser.js";
-
-Weather_Catcher() // setting up weather catcher 
-
-// Note - Weather Js is Asynchronous so, needs async and await!
-( async function () {
-  const russia_weather = await Weather('russia'); // location of region. 
-  
-})();
-/******************************************/
 
 /* Browser Sided Packages */
 import {THREE} from "xsoz/browser/browser.js";
@@ -110,3 +92,34 @@ import {millify} from "xsoz/node/node.js";
 import {jwt} from "xsoz/node/node.js"; // json web token
 import {session} from "xsoz/node/node.js"; // express-session
 import {flash} from "xsoz/node/node.js"; // connect-flash
+```
+
+## Usage of Built-In Browser Packages 
+Xsoz includes pre-integrated **browser** packages, developed exclusively by the Xsoz developer, to address a range of simple to complex problems encountered in daily development. These built-in packages enhance efficiency by reducing the need for extensive code, allowing developers to accomplish challenging tasks with short, easily understandable lines of code.
+
+- **Your Path for Built-In Browser Packages:**
+```javascript
+"xsoz/browser/InBuiltPackages/browser.js";
+```
+
+Some of the built-in browser packages are listed below, along with their simple usage process:- 
+
+- **Weather.js**: This is the first **built-in** package in **Xsoz**, capable of providing weather information for any location, from streets and villages to cities, states, and countries, simply by specifying the exact location. It fetches comprehensive data about the specified place. (Currently supports only browsers). Comprehensive documentation for accessing this feature will be available soon.
+
+```javascript
+
+/* Built In Packages (Weather.js)[Asynchronous In Behaviour] */
+import {
+  Weather_Catcher, 
+  Weather
+} from "xsoz/browser/InBuiltPackages/browser.js";
+
+Weather_Catcher() // setting up weather catcher 
+
+// Note - Weather Js is Asynchronous so, needs async and await! Following is the example, of how to use it -> 
+
+( async function () {
+  const russia_weather = await Weather('russia'); // location of region. 
+  
+})();
+```
