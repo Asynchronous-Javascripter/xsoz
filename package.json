@@ -20,11 +20,11 @@
     "json-web-token",
     "express-session",
     "connect-flash",
-    "axios",
     "Weather.js",
     "Next.js - For Termux/Android",
     "React.js - For Termux/Android",
     "Vite",
+    "axios",
     "more packages are arriving soon!"
   ],
   "author": "Asynchronous Developer",
