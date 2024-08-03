@@ -1,6 +1,6 @@
 {
   "name": "xsoz",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,11 @@
     "json-web-token",
     "express-session",
     "connect-flash",
+    "axios",
     "Weather.js",
+    "Next.js - For Termux/Android",
+    "React.js - For Termux/Android",
+    "Vite",
     "more packages are arriving soon!"
   ],
   "author": "Asynchronous Developer",
@@ -28,5 +32,11 @@
   "bugs": {
     "url": "https://github.com/Asynchronous-Javascripter/xsoz/issues"
   },
-  "homepage": "https://github.com/Asynchronous-Javascripter/xsoz#readme"
+  "homepage": "https://github.com/Asynchronous-Javascripter/xsoz#readme",
+  "devDependencies": {
+    "next": "^12.3.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vite": "^5.3.5"
+  }
 }
