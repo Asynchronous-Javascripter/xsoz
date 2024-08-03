@@ -1,5 +1,7 @@
 # xsoz
 
+![xsoz](./images/xsoz.jpeg)
+
 **xsoz** is a comprehensive package designed to preserve and provide access to deprecated or at-risk packages, as well as to streamline the installation process for commonly used libraries. This project aims to save developers time and effort by offering a single installation point for multiple essential tools.
 
 ## What is xsoz?
@@ -19,15 +21,26 @@ The software development landscape is constantly evolving, and valuable packages
 ## Work of xsoz
 
 xsoz currently includes the following packages:
+
+![Cannon JS](./browser/images/cannon.jpeg)
+
 - **Cannon.js**: A physics engine that provides a comprehensive and efficient way to simulate physical interactions in a Three.js scene.
+
+![Three JS](./browser/images/three.jpg)
 
 - **Three.js**: A JavaScript-based WebGL engine that can run GPU-powered games and other graphics-powered apps straight from the browser. The three. js library provides many features and APIs for drawing 3D scenes in your browser.
 
 - **gsap**: A best Javascript animation library.
 
+![Cannon Debugger](./browser/images/cannonDebugger.jpeg)
+
 - **cannon-es-debugger**: Debugging tool for Cannon.js.
 
+![Express JS](./node/images/express.jpeg)
+
 - **Express.js**: A Node js web application framework that provides broad features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application. It's a layer built on the top of the Node js that helps manage servers and routes.
+
+![mongoose](./node/images/mongoose.jpeg)
 
 - **Mongoose.js** : Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Waterline: An ORM extracted from the Express-based Sails web framework. It provides a uniform API for accessing numerous different databases, including Redis, MySQL, LDAP, MongoDB, and Postgres.
 
@@ -67,16 +80,17 @@ While xsoz includes packages developed by various authors, this project does not
 
 xsoz is built on ES6, so imports are used in place of require. To work with xsoz, simply observe or use the following code:
 
+- **If you want to use any Server sided package, like Express, mongoose etc. then your path would be:**
 ```javascript
-/* 
-Note :-
-1) If you want to use any Server sided package, like Express, mongoose etc. then your path would be -> 
-xsoz/node/node.js 
+'xsoz/node/node.js';
+```
 
-2) If you want to use any Web/Browser Sided package, like Three.js, Cannon.js, etc. then your path would be ->
-xsoz/browser/browser.js 
-*/
+- **If you want to use any Web/Browser Sided package, like Three.js, Cannon.js, etc. then your path would be:**
+```javascript
+"xsoz/browser/browser.js";
+```
 
+```javascript
 /* Browser Sided Packages */
 import {THREE} from "xsoz/browser/browser.js";
 import {CANNON} from "xsoz/browser/browser.js";
