@@ -26,7 +26,6 @@ xsoz currently includes the following packages:
 
 - **Cannon.js**: A physics engine that provides a comprehensive and efficient way to simulate physical interactions in a Three.js scene.
 
-![Three JS](./browser/images/three.jpg)
 
 - **Three.js**: A JavaScript-based WebGL engine that can run GPU-powered games and other graphics-powered apps straight from the browser. The three. js library provides many features and APIs for drawing 3D scenes in your browser.
 
