@@ -1,6 +1,6 @@
 # xsoz
 
-![xsoz](./images/xsoz.jpeg)
+![xsoz](./images/xsoz.png)
 
 **xsoz** is a comprehensive package designed to preserve and provide access to deprecated or at-risk packages, as well as to streamline the installation process for commonly used libraries. This project aims to save developers time and effort by offering a single installation point for multiple essential tools.
 
@@ -22,7 +22,7 @@ The software development landscape is constantly evolving, and valuable packages
 
 xsoz currently includes the following packages:
 
-![Cannon JS](./browser/images/cannon.jpeg)
+![Cannon JS](./browser/images/cannon.png)
 
 - **Cannon.js**: A physics engine that provides a comprehensive and efficient way to simulate physical interactions in a Three.js scene.
 
@@ -31,15 +31,13 @@ xsoz currently includes the following packages:
 
 - **gsap**: A best Javascript animation library.
 
-![Cannon Debugger](./browser/images/cannonDebugger.jpeg)
+![Cannon Debugger](./browser/images/cannonDebugger.png)
 
 - **cannon-es-debugger**: Debugging tool for Cannon.js.
 
-![Express JS](./node/images/express.jpeg)
 
 - **Express.js**: A Node js web application framework that provides broad features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application. It's a layer built on the top of the Node js that helps manage servers and routes.
 
-![mongoose](./node/images/mongoose.jpeg)
 
 - **Mongoose.js** : Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Waterline: An ORM extracted from the Express-based Sails web framework. It provides a uniform API for accessing numerous different databases, including Redis, MySQL, LDAP, MongoDB, and Postgres.
 
