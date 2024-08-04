@@ -1,6 +1,6 @@
 {
   "name": "xsoz",
-  "version": "10.0.0",
+  "version": "10.5.0-dev.0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
     "React.js - For Termux/Android",
     "Vite",
     "axios",
+    "cors",
     "more packages are arriving soon!"
   ],
   "author": "Asynchronous Developer",

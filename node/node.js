@@ -5,7 +5,8 @@ import {
   millify,
   jwt,
   session,
-  flash
+  flash,
+  cors
 } from "./revolution/Node_Packages.js";
 
 export {
@@ -15,5 +16,6 @@ export {
   millify,
   jwt,
   session,
-  flash
+  flash,
+  cors
 }
